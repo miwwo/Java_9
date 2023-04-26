@@ -52,7 +52,7 @@ task buildJar(type: Jar) {
     description = "Builds a jar file"
     manifest {
         attributes(
-                'Main-Class': 'App'
+                'Main-Class': 'org.example.App'
         )
     }
 
